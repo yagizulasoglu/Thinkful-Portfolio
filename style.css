@@ -1,0 +1,67 @@
+body {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+h1, h2, h3, p, img, hr, ul, ol {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+h1, h2, h3, a,footer {
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: Arial, Tahoma, serif;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: Arial, Tahoma, serif;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p, ul, a, footer {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+  height: 500px;
+  align-items: center;
+  padding-left: 70px;
+  padding-top: 30px;
+}
+
+
+header {
+  background-color: rgb(109, 41, 41);
+  color: rgb(236, 104, 104);
+}
+
+hr {
+  background-color: rgb(109, 41, 41);
+  border-color: rgb(109, 41, 41);
+}
+
+main{
+  background-color: rgb(236, 104, 104);
+  color: rgb(109, 41, 41);
+}
+
+footer {
+  background-color: rgb(109, 41, 41);
+  color: rgb(236, 104, 104);
+}
+
+a:link    { color:  hsl(120, 100%, 30%);  }
+a:visited { color: hsl(120, 100%, 10%); }
+a:hover   { color: hsl(120, 100%, 40%); }
+a:active  { color: hsl(120, 100%, 20%); }
