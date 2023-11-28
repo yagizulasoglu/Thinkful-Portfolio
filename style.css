@@ -1,23 +1,29 @@
+/* CSS Styles */
 body {
+  /* Set the body to display as a flex container with a column direction */
   display: inline-flex;
   flex-direction: column;
   margin: 0px;
 }
 
+/* Apply margin to specific elements for spacing */
 h1, h2, h3, p, img, hr, ul, ol, iframe {
   margin-left: 300px;
   margin-right: 300px;
 }
 
-h1, h2, h3, a,footer {
+/* Center-align specific elements */
+h1, h2, h3, a, footer {
   text-align: center;
 }
 
+/* Styling for the main heading */
 h1 {
   font-size: 70px;
   font-family: Arial, Tahoma, serif;
 }
 
+/* Styling for subheadings */
 h2 {
   font-size: 40px;
   font-family: Arial, Tahoma, serif;
@@ -28,11 +34,13 @@ h3 {
   font-family: 'Times New Roman', Times, serif;
 }
 
+/* Styling for paragraphs, unordered lists, links, and footer */
 p, ul, a, footer {
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
 
+/* Styling for images */
 img {
   height: 500px;
   align-items: center;
@@ -40,27 +48,31 @@ img {
   padding-top: 30px;
 }
 
-
+/* Styling for the header */
 header {
   background-color: rgb(109, 41, 41);
   color: rgb(236, 104, 104);
 }
 
+/* Styling for horizontal lines */
 hr {
   background-color: rgb(109, 41, 41);
   border-color: rgb(109, 41, 41);
 }
 
+/* Styling for the main content section */
 main{
   background-color: rgb(236, 104, 104);
   color: rgb(109, 41, 41);
 }
 
+/* Styling for the footer */
 footer {
   background-color: rgb(109, 41, 41);
   color: rgb(236, 104, 104);
 }
 
+/* Styling for links */
 a:link    { color:  hsl(120, 100%, 30%);  }
 a:visited { color: hsl(120, 100%, 10%); }
 a:hover   { color: hsl(120, 100%, 40%); }
